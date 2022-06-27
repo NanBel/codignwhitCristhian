@@ -5,49 +5,143 @@
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
+  <style>
 
+@media screen and (max-height: 450px) {
+  .container {
+    text-align: left;
+  }
+
+  .container-nav {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+    position: fixed;    
+    width: 650px;
+  }
+
+  nav li {
+    margin: 0.8em 0;
+  }
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  position:fixed;
+    background-color: #fd5f00;
+  }
+nav li {
+margin-left: 2em;
+}
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #fd5f00;
+}
+  </style>
   <body>
     <h1>Hello World!</h1>
     <h2>We are develepers!!</h2>
     <main id="main-doc">
-      <nav id="navbar">
-        <header>JavaScript</header>
-        <ul>
-          <li><a class="nav-link" href="#introduction">Introduction</a></li>
-          <li><a class="nav-link" href="#already">What you should already know</a></li>
-          <li><a class="nav-link" href="#javascript_java">JavaScript and Java</a></li>
-          <li><a class="nav-link" href="#hello_world">Hello World</a></li>
-          <li><a class="nav-link" href="#variables">Variables</a></li>
-        </ul>
-      </nav>
-      <section class="main-section" id="introduction">
-          <header>Introduction</h1>
-            <p>
-              JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
-            </p>
+      <section id="section_header">
+        
+        <div class="container container-nav">
+            
+          <nav id="navbar">
+            <header>JavaScript</header>
+            <ul>
+              <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+              <li><a class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
+              <li><a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a></li>
+              <li><a class="nav-link" href="#Hello_world">Hello World</a></li>
+              <li><a class="nav-link" href="#Variables">Variables</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <section class="main-section" id="Introduction">
+          <header>Introduction</header>
+          <p>
+            JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
+          </p>           
+          <p>
+            JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
+          </p>          
+          <p>
+            JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
+          </p>          
+          <p>
+            JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
+          </p>          
+          <p>
+            JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
+          </p>          
+          <p>
+            JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
+          </p>          
+          <p>
+            JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
+          </p>          
+          <p>
+            JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
+          </p>          
+          <p>
+            JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
+          </p>          
+          <p>
+            JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
+          </p>
       </section> 
-      <section class="main-section" id="already">
-        <header>What you should already know</h1>
+      <section class="main-section" id="What_you_should_already_know">
+        <header>What you should already know</header>
         <ul>
           <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
           <li>Good working knowledge of HyperText Markup Language (HTML).
           </li>
           <li>Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript.
           </li>
+          <li>Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript.
+          </li>
+          <li>Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript.
+          </li>
+          <li>Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript.
+          </li>
         </ul>
       </section> 
-      <section class="main-section" id="javascript_java">
-        <header>JavaScript and Java</h1>
-          <code>
-            function greetMe(yourName) { alert("Hello " + yourName); }
-            greetMe("World");
-          </code>
+      <section class="main-section" id="JavaScript_and_Java">
+        <header>JavaScript and Java</header>
+        <code>
+          function greetMe(yourName) { alert("Hello " + yourName); }
+          greetMe("World");
+        </code>
+        <code>
+          function greetMe(yourName) { alert("Hello " + yourName); }
+          greetMe("World");
+        </code>
+        <code>
+          function greetMe(yourName) { alert("Hello " + yourName); }
+          greetMe("World");
+        </code>
+        <code>
+          function greetMe(yourName) { alert("Hello " + yourName); }
+          greetMe("World");
+        </code>
+        <code>
+          function greetMe(yourName) { alert("Hello " + yourName); }
+          greetMe("World");
+        </code>
       </section> 
-      <section class="main-section" id="hello_world">
-        <header>Hello world</h1>
+      <section class="main-section" id="Hello_world">
+        <header>Hello world</header>
       </section>
-      <section class="main-section" id="variables">
-        Variables
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
       </section>
     </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
